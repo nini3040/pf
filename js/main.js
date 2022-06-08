@@ -19,10 +19,10 @@ $(function(){
         if(height >= 560 && height <= 1144) {
             $(".header_main>ul>li").removeClass("on on2")
             $(".header_main>ul>li:nth-child(1)").addClass("on on2")
-        } else if (height >= 1145 && height <= 5800) {
+        } else if (height >= 1145 && height <= 5200) {
             $(".header_main>ul>li").removeClass("on on2")
             $(".header_main>ul>li:nth-child(2)").addClass("on on2")
-        } else if (height>=5801) {
+        } else if (height>=5201) {
             $(".header_main>ul>li").removeClass("on on2")
             $(".header_main>ul>li:nth-child(3)").addClass("on on2")
         } else {
